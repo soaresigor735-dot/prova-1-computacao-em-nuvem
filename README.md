@@ -24,3 +24,7 @@ cat > index.html <<'EOF'
  <h1>Loja no ar</h1>
 </body>
 </html>
+
+# Explicação
+Imagem é o modelo estatico, um template somente leitura que contém o sistema de arquivos e Conteiner é a instancia em execução criada a partir dessa imagem.
+Mapeamento 8081:80 serviu para redirecionar o trafego da porta 8081 do ambiente/host
